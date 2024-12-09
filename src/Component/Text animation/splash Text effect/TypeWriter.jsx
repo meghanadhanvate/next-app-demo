@@ -37,7 +37,7 @@ export const TypeWriter = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [toggle]);
+  }, [toggle,wordsArray1, wordsArray2]);
 
   const renderWords = () => (
     <div>
